@@ -92,14 +92,14 @@ class CreateNumberVariant2(Strategy):
         tvar = self.get_token(0, tokens)
         tnum = self.get_token(1, tokens)
 
-        out = f"[{tvar}:={tnum}=={tnum},"
+        out = f"+[{tvar}:={tnum}=={tnum},"
         for i in range(int(tnum)):
             if i != int(tnum) - 1:
                 out += f"{tvar},"
             else:
                 out += f"{tvar}+"*number
         out = out[:-1] + f"][{tnum}]"
-
+    
         return out
     
 class CreateNumberReprInt(Strategy):

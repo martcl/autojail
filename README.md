@@ -1,6 +1,6 @@
 # AutoJail Python
 
-AutoJail is a tool for automatically solving python jail CTF challenges. This program takes in a blacklist/whitelist and generates valid python that evaluetes to what you want to achieve without using any blacklisted keywords or only using the whitelisted keywords.
+AutoJail is a tool for automatically solving python jail CTF challenges. This program takes in a blacklist/whitelist and generates valid python that, when ran, will execute the desired code.
 
 ⚠️ This project is still in development ⚠️
 
