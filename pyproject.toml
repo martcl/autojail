@@ -5,7 +5,14 @@ build-backend = "hatchling.build"
 [project]
 name = "autojail"
 version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.6"
 
+[project.scripts]
+autojail = "autojail.main:main"
+
+[project.urls]
+homepage = "https://github.com/martcl/autojail"
 
 [tool.pytest.ini_options]
 addopts = [

@@ -8,8 +8,8 @@ AutoJail is a tool for automatically solving python jail CTF challenges. This pr
 
 ```
 git clone git@github.com:martcl/autojail.git
-cd autojail/autojail
-python main.py -h
+pip install ./autojail
+autojail -h
 ```
 
 ## Examples
