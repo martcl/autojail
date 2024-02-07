@@ -7,7 +7,7 @@ AutoJail is a tool for automatically solving python jail CTF challenges. This pr
 ## Getting started
 
 ```
-git pull ...
+git clone git@github.com:martcl/autojail.git
 cd autojail/autojail
 python main.py -h
 ```
